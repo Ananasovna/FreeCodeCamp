@@ -4,11 +4,11 @@ const result = {
   skipped: ["no-extra-semi", "no-dup-keys"]
 };
 function makeList(arr) {
-  // Only change code below this line
+
   const failureItems = arr.map(e => 
   '<li class="text-warning">'+`${e}`+'</li>');
   console.log(failureItems)
-  // Only change code above this line
+
 
   return failureItems;
 }
