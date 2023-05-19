@@ -11,7 +11,7 @@ const users = {
 }
 
 function countOnline(allUsers) {
-  // Only change code below this line
+
   let count = 0;
   for (let key in allUsers) {
     if (allUsers[key].online === true) {
@@ -19,7 +19,7 @@ function countOnline(allUsers) {
     }
   }
   return count;
-  // Only change code above this line
+
 }
 
 console.log(countOnline(users));
